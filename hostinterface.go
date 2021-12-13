@@ -63,7 +63,7 @@ type HostinterfaceObject struct {
 	Main        int                             `json:"main"` // has defined consts, see above
 	Port        string                          `json:"port"`
 	Type        int                             `json:"type"` // has defined consts, see above
-	Available   int                             `json:"availabile"`
+	Available   int                             `json:"available"`
 	Error       string                          `json:"error"`
 	UseIP       int                             `json:"useip"` // has defined consts, see above
 	Details     []HostinterfaceDetailsTagObject `json:"details,omitempty"`
