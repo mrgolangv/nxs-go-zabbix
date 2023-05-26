@@ -81,7 +81,7 @@ func (z *Context) Login(host, user, password string) error {
 	z.host = host
 
 	r := UserLoginParams{
-		User:     user,
+		Username: user,
 		Password: password,
 	}
 
